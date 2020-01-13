@@ -1,0 +1,18 @@
+<div class="container">
+    {{> header}}
+    <div>
+        {{!-- {{#if hasNoTeam}} --}}
+        <a href="#/create" class="btn btn-default">CREATE NEW TEAM</a>
+        {{!-- {{/if}} --}}
+    </div>
+    <h1>Catalog Page</h1>
+    <div>
+        {{#each teams}}
+            {{> team}}
+        {{/each}}
+    </div> 
+</div>
+{{> footer}}
+
+
+
