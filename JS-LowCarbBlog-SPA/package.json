@@ -11,7 +11,7 @@
   "description": "",
   "dependencies": {
     "bootstrap": "^4.4.1",
-    "handlebars": "^4.7.0",
+    "handlebars": "^4.7.7",
     "jquery": "^3.4.1",
     "sammy": "^0.7.6"
   }
